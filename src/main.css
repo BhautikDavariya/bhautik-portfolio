@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+*[id]:before {
+    display: block;
+    content: ' ';
+    margin-top: -75px;
+    height: 75px;
+    visibility: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #0a192f;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #495670;
+    border: 3px solid #0a192f;
+    border-radius: 10px;
+}
+
+.nav-start-scrolling {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+.hamburger-active div:nth-child(1) {
+    width: 30px;
+    animation: hamburgerTop 500ms linear forwards;
+}
+
+.hamburger-active div:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-active div:nth-child(3) {
+    width: 30px;
+    animation: hamburgerButtom 500ms linear forwards;
+}
+
+.sidebar-active {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 50px 10px;
+    background-color: #112240;
+    box-shadow: -10px 0px 30px -15px black;
+    animation: sideBar 130ms linear forwards;
+    z-index: 9;
+    height: 100vh;
+    outline: 0px;
+    transform: translateX(0vw);
+}
+
+@keyframes sideBar {
+    100% {
+        width: min(75vw, 400px);
+    }
+}
+
+@keyframes hamburgerTop {
+    50% {
+        transform: translateY(9px);
+    }
+    100% {
+        transform: translateY(9px) rotate(405deg);
+    }
+}
+
+@keyframes hamburgerButtom {
+    50% {
+        transform: translateY(-9px);
+    }
+    100% {
+        transform: translateY(-9px) rotate(495deg);
+    }
+}
+
+.hero-gradient {
+    background: #59e3c5;
+    background: linear-gradient(-90deg, #59e3c5 0%, rgba(60, 51, 80, 0) 100%);
+    background: -webkit-linear-gradient(
+        -90deg,
+        #59e3c5 0%,
+        rgba(60, 51, 80, 0) 100%
+    );
+}
+
+.underline-link:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #64ffda;
+    transition: width 0.3s;
+}
+
+.underline-link:hover:after {
+    width: 100%;
+}
