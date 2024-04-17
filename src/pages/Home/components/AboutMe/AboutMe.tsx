@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-// hello 
+// hello
 import { motion } from 'framer-motion'
 import { fadeIn, slideIn, textVariant } from '@/utils/motion'
 import me from '@/assets/Bhautik_Resume_image.png'
@@ -37,8 +37,8 @@ const AboutMe = () => {
                         bring a unique perspective and a drive for innovation to
                         every project, and I am always eager to learn and grow
                         as a developer. */}
-                        Bringing web ideas to life with ReactJS And NextJs! I'm a
-                        passionate frontend developer with over 2.3 years of
+                        Bringing web ideas to life with ReactJS And NextJs! I'm
+                        a passionate frontend developer with over 2.3 years of
                         hands-on work experience. I enjoy building interactive
                         web applications that delight users Let's collaborate
                         and build something amazing!

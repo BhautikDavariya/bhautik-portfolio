@@ -32,13 +32,7 @@ export const technologies: ITechnologies[] = [
     },
 ]
 
-export const Languages = [
-    'HTML',
-    'CSS',
-    'SCSS',
-    'JavaScript',
-    'typeScript',
-]
+export const Languages = ['HTML', 'CSS', 'SCSS', 'JavaScript', 'typeScript']
 
 export const SoftwaresTools = [
     'REACTJS',

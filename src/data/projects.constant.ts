@@ -21,7 +21,7 @@ export const ProjectsData: IProject[] = [
             'React',
             'Javascript',
             'Redux(toolkit)',
-            'Axios'
+            'Axios',
         ],
         github: '',
         demo: 'https://infypos.infyom.com/',
@@ -42,7 +42,7 @@ export const ProjectsData: IProject[] = [
             'Scss',
             'Javascript',
             'Laravel',
-            'Axios'
+            'Axios',
         ],
         github: '',
         demo: 'https://link-builder.infyom.com/',

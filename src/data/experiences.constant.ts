@@ -24,7 +24,7 @@ export const experiences: IExperience[] = [
             Ecommerce, and Acclimetry. In addition, I work well
             in groups and enjoy collaborating with people
             from different departments to produce top-notch
-            software.`
+            software.`,
         ],
     },
     {
@@ -40,11 +40,10 @@ export const experiences: IExperience[] = [
             builder apps. Possesses a strong understanding of
             frontend technologies, including React Bootstrap,
             Redux, custom hooks. Works seamlessly with
-            teams to build great software.`
+            teams to build great software.`,
         ],
     },
 ]
-
 
 // {
 //     title: 'National Cyber Education Program',

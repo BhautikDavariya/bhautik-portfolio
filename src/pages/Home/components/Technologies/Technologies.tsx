@@ -1,5 +1,9 @@
 import { motion } from 'framer-motion'
-import { Languages, SoftwaresTools, technologies } from '../../../../data/technologies.constant'
+import {
+    Languages,
+    SoftwaresTools,
+    technologies,
+} from '../../../../data/technologies.constant'
 import { textVariant } from '../../../../utils/motion'
 import BallCanvas from '../../../../components/BallCanvas'
 
@@ -59,7 +63,7 @@ const Technologies = () => {
                 className="flex flex-col gap-2 items-center mt-10"
             >
                 <h1 className="text-secondary text-4xl sm:text-7xl inline font-bold">
-                Softwares & Tools
+                    Softwares & Tools
                 </h1>
             </motion.div>
 

@@ -113,7 +113,9 @@ const NavBar = () => {
                     </a>
                 ))}
                 <Button size="large">
-                    <a href="https://drive.google.com/file/d/1qMKxBf3kPsuM7ZaEN7BFoIZFBZz1a1eB/view?usp=sharing">Resume</a>
+                    <a href="https://drive.google.com/file/d/1qMKxBf3kPsuM7ZaEN7BFoIZFBZz1a1eB/view?usp=sharing">
+                        Resume
+                    </a>
                 </Button>
             </div>
             {/* <div className="absolute h-full w-1/4 blur"></div> */}
