@@ -4,7 +4,7 @@ import Button from '../Button/Button'
 import { navBarLinks } from './data'
 import { motion } from 'framer-motion'
 import { fadeIn, zoomIn } from '../../utils/motion'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/bhautik-logo.png'
 
 const NavBar = () => {
     const [hamburgerClicked, setHamburgerClicked] = useState(false)
