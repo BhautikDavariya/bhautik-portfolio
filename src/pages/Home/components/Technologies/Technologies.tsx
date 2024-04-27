@@ -1,5 +1,9 @@
 import { motion } from 'framer-motion'
-import { Languages, SoftwaresTools, technologies } from '../../../../data/technologies.constant'
+import {
+    Languages,
+    SoftwaresTools,
+    technologies,
+} from '../../../../data/technologies.constant'
 import { textVariant } from '../../../../utils/motion'
 
 const Technologies = () => {
