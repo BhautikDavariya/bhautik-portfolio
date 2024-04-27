@@ -66,14 +66,14 @@ const ExperienceCard = (props: IExperienceCardProps) => {
 
 const Experience = () => {
     return (
-        <section id="work" className="container mt-44 mx-auto">
+        <section id="work" className="container sm:mt-44 mt-14 mx-auto">
             <motion.div
                 initial="hidden"
                 whileInView="show"
                 variants={textVariant(null)}
                 className="flex flex-col gap-2 items-center"
             >
-                <p className="text-primary text-3xl uppercase">
+                <p className="text-primary text-center text-3xl uppercase">
                     What i have done so far
                 </p>
                 <h1 className="text-secondary text-4xl sm:text-7xl font-bold">

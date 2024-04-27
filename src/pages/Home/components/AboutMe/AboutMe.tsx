@@ -6,7 +6,7 @@ import me from '@/assets/Bhautik_Resume_image.png'
 
 const AboutMe = () => {
     return (
-        <section id="about" className="mt-44 container mx-auto">
+        <section id="about" className="sm:mt-44 mt-15 container mx-auto">
             <motion.div
                 initial="hidden"
                 whileInView="show"
@@ -17,7 +17,7 @@ const AboutMe = () => {
                     About Me.
                 </h1>
             </motion.div>
-            <div className="flex flex-col items-center md:justify-center md:flex-row gap-24 mt-10 overflow-hidden">
+            <div className="flex flex-col items-center md:justify-center md:flex-row sm:gap-24 gap-14 sm:mt-10 mt-5 overflow-hidden">
                 <motion.div
                     initial="hidden"
                     whileInView="show"

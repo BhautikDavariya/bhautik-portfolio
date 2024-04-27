@@ -11,10 +11,10 @@ const Contact = () => {
         <div className="relative z-0">
             <section
                 id="contact"
-                className="container mt-44 mx-auto flex xl:flex-row flex-col-reverse gap-10 overflow-hidden"
+                className="container sm:mt-44 mt-14 mx-auto flex xl:flex-row flex-col-reverse sm:gap-10 gap-5 overflow-hidden"
             >
                 <motion.div
-                    initial="hidden"
+                    // initial="hidden"
                     whileInView="show"
                     variants={slideIn({
                         direction: 'left',

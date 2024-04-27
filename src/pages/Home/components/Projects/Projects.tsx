@@ -74,10 +74,10 @@ const Projects = () => {
     return (
         <section
             id="projects"
-            className="container mt-44 mx-auto overflow-hidden"
+            className="container sm:mt-44 mt-14 mx-auto overflow-hidden"
         >
             <motion.div
-                initial="hidden"
+                // initial="hidden"
                 whileInView="show"
                 variants={textVariant(null)}
                 className="flex flex-col gap-2 items-center"

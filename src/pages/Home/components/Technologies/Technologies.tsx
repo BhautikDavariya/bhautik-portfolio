@@ -1,15 +1,10 @@
 import { motion } from 'framer-motion'
-import {
-    Languages,
-    SoftwaresTools,
-    technologies,
-} from '../../../../data/technologies.constant'
+import { Languages, SoftwaresTools, technologies } from '../../../../data/technologies.constant'
 import { textVariant } from '../../../../utils/motion'
-import BallCanvas from '../../../../components/BallCanvas'
 
 const Technologies = () => {
     return (
-        <section id="technologies" className="container mt-44 mx-auto">
+        <section id="technologies" className="container sm:mt-44 mt-14 mx-auto">
             <motion.div
                 initial="hidden"
                 whileInView="show"
@@ -21,14 +16,14 @@ const Technologies = () => {
                 </h1>
             </motion.div>
 
-            <div className="flex flex-row flex-wrap justify-center gap-10 mt-16">
+            <div className="flex flex-row flex-wrap justify-center sm:gap-10 gap-5 mt-16">
                 {technologies.map((technology) => (
                     <div
-                        className="w-28 h-28"
+                        className="sm:w-28 sm:h-28 w-14 h-14 flex justify-center items-center"
                         key={technology.name}
                         title={technology.name}
                     >
-                        <BallCanvas icon={technology.image} />
+                        <img src={technology.image} alt={technology.name} />
                     </div>
                 ))}
             </div>
@@ -44,14 +39,14 @@ const Technologies = () => {
                 </h1>
             </motion.div>
 
-            <div className="flex flex-row flex-wrap justify-center gap-10 mt-16">
-                {Languages.map((technology) => (
+            <div className="flex flex-row flex-wrap justify-center sm:gap-10 gap-5 mt-16">
+                {Languages.map((language) => (
                     <div
-                        className="w-28 h-28 text-white text-[24px] font-bold"
-                        key={technology}
-                        title={technology}
+                        className="sm:w-fit sm:h-auto w-fit h-auto text-white sm:text-[24px] text-[15px]  font-bold flex justify-center items-center"
+                        key={language}
+                        title={language}
                     >
-                        {technology}
+                        {language}
                     </div>
                 ))}
             </div>
@@ -67,14 +62,14 @@ const Technologies = () => {
                 </h1>
             </motion.div>
 
-            <div className="flex flex-row flex-wrap justify-center gap-10 mt-16">
-                {SoftwaresTools.map((technology) => (
+            <div className="flex flex-row flex-wrap justify-center sm:gap-10 gap-5 mt-16">
+                {SoftwaresTools.map((softwareTool) => (
                     <div
-                        className="w-30 h-28 text-white text-[24px] font-bold"
-                        key={technology}
-                        title={technology}
+                        className="sm:w-fit sm:h-auto w-fit h-auto text-white sm:text-[24px] text-[15px]  font-bold flex justify-center items-center"
+                        key={softwareTool}
+                        title={softwareTool}
                     >
-                        {technology}
+                        {softwareTool}
                     </div>
                 ))}
             </div>

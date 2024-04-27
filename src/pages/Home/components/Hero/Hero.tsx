@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <section id="Hero" className="relative h-screen">
             <div
-                className={`absolute inset-0 top-[23%]  max-w-7xl mx-auto sm:px-16 px-6 flex flex-row items-start gap-5 md:top-[250px]`}
+                className={`absolute inset-0 top-[23%] max-w-7xl mx-auto sm:px-16 px-6 flex flex-row items-start gap-5 md:top-[100px]`}
             >
                 <div className="flex flex-col justify-center items-center mt-5">
                     <div className="w-5 h-5 rounded-full bg-callToAction" />
