@@ -25,7 +25,7 @@ const MainProject = ({ project, key, leftSide }: IMainProjectProps) => {
         >
             <div className="flex flex-col items-center gap-2">
                 <p className="text-md text-callToAction">Featured Project</p>
-                <p className="text-3xl text-primaryLight font-bold">
+                <p className="text-3xl text-center text-primaryLight font-bold">
                     {project.title}
                 </p>
                 <div className="text-primary border-solid bg-[#233554] p-2 border-[#233554] w-[400px] text-center rounded-md border-4 shadow-lg">
@@ -86,7 +86,8 @@ const Projects = () => {
                     Projects.
                 </h1>
             </motion.div>
-            {ProjectsData.map((project, index) => {
+           <div className='grid grid-cols-2'>
+           {ProjectsData.map((project, index) => {
                 return (
                     <MainProject
                         project={project}
@@ -95,6 +96,7 @@ const Projects = () => {
                     />
                 )
             })}
+           </div>
         </section>
     )
 }

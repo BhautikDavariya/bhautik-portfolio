@@ -82,8 +82,7 @@ export const ProjectsData: IProject[] = [
     },
     {
         title: 'Meta-Snap-Editor',
-        description:
-            `Meta-snap, a web application, helps users manage metadata associated with canvas headings. This user-friendly tool facilitates the creation of dynamic meta URLs, which improve search engine ranking (SEO) for their content. Built with React's flexible components, Meta-snap streamlines metadata management specifically for canvas headings. This project solidified my expertise in building React applications and provided valuable insights into SEO optimization strategies.`,
+        description: `Meta-snap, a web application, helps users manage metadata associated with canvas headings. This user-friendly tool facilitates the creation of dynamic meta URLs, which improve search engine ranking (SEO) for their content. Built with React's flexible components, Meta-snap streamlines metadata management specifically for canvas headings. This project solidified my expertise in building React applications and provided valuable insights into SEO optimization strategies.`,
         technologies: [
             'React Js',
             'Axios',
@@ -94,5 +93,24 @@ export const ProjectsData: IProject[] = [
         github: '',
         demo: 'https://app.metasnap.io',
         image: '',
-    }
+    },
+    {
+        title: 'ToneCompass',
+        description:
+            `Developed Tone Compass, a user-friendly React application to simplify color
+            selection for designers. This tool empowers users to pick color shades, explore
+            patterns, and receive personalized color recommendations. Through Tone Compass,
+            designers can effortlessly build visually stunning and harmonious color palettes.`,
+        technologies: [
+            'React Js',
+            'Vite',
+            'Axios',
+            'JavaScript',
+            'Node Js',
+            'Redux(persist)',
+        ],
+        github: '',
+        demo: 'https://app.tonecompass.com/',
+        image: '',
+    },
 ]
