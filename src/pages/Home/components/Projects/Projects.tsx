@@ -86,17 +86,17 @@ const Projects = () => {
                     Projects.
                 </h1>
             </motion.div>
-           <div className='grid grid-cols-2'>
-           {ProjectsData.map((project, index) => {
-                return (
-                    <MainProject
-                        project={project}
-                        key={index}
-                        leftSide={index % 2 === 0}
-                    />
-                )
-            })}
-           </div>
+            <div className="grid grid-cols-2">
+                {ProjectsData.map((project, index) => {
+                    return (
+                        <MainProject
+                            project={project}
+                            key={index}
+                            leftSide={index % 2 === 0}
+                        />
+                    )
+                })}
+            </div>
         </section>
     )
 }

@@ -96,8 +96,7 @@ export const ProjectsData: IProject[] = [
     },
     {
         title: 'ToneCompass',
-        description:
-            `Developed Tone Compass, a user-friendly React application to simplify color
+        description: `Developed Tone Compass, a user-friendly React application to simplify color
             selection for designers. This tool empowers users to pick color shades, explore
             patterns, and receive personalized color recommendations. Through Tone Compass,
             designers can effortlessly build visually stunning and harmonious color palettes.`,
@@ -112,5 +111,6 @@ export const ProjectsData: IProject[] = [
         github: '',
         demo: 'https://app.tonecompass.com/',
         image: '',
+        
     },
 ]
