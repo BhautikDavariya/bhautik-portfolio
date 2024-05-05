@@ -111,6 +111,5 @@ export const ProjectsData: IProject[] = [
         github: '',
         demo: 'https://app.tonecompass.com/',
         image: '',
-        
     },
 ]
