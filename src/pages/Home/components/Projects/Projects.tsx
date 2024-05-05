@@ -86,7 +86,7 @@ const Projects = () => {
                     Projects.
                 </h1>
             </motion.div>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1 lg:grid-cols-2">
                 {ProjectsData.map((project, index) => {
                     return (
                         <MainProject
