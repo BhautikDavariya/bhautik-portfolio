@@ -9,14 +9,12 @@ import Technologies from './components/Technologies/Technologies'
 const Home = () => {
     return (
         <>
-
             <Hero />
             <AboutMe />
             <Technologies />
             <Experience />
             <Projects />
             <Contact />
-            
         </>
     )
 }

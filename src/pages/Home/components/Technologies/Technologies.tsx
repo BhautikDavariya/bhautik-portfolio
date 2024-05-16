@@ -9,7 +9,10 @@ import StarsCanvas from '@/components/StarsCanvas'
 
 const Technologies = () => {
     return (
-        <section id="technologies" className="container sm:mt-44 mt-14 mx-auto relative">
+        <section
+            id="technologies"
+            className="container sm:mt-44 mt-14 mx-auto relative"
+        >
             <motion.div
                 initial="hidden"
                 whileInView="show"
