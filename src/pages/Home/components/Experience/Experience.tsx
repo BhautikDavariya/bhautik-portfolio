@@ -6,6 +6,7 @@ import {
     VerticalTimelineElement,
 } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
+import StarsCanvas from '@/components/StarsCanvas'
 
 interface IExperienceCardProps {
     experience: IExperience
@@ -66,7 +67,7 @@ const ExperienceCard = (props: IExperienceCardProps) => {
 
 const Experience = () => {
     return (
-        <section id="work" className="container sm:mt-44 mt-14 mx-auto">
+        <section id="work" className="container sm:mt-44 mt-14 mx-auto relative">
             <motion.div
                 initial="hidden"
                 whileInView="show"
@@ -94,6 +95,7 @@ const Experience = () => {
                         ))}
                 </VerticalTimeline>
             </div>
+            <StarsCanvas />
         </section>
     )
 }

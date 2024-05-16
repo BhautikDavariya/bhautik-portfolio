@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { fadeIn, textVariant } from '../../../../utils/motion'
 import { IProject, ProjectsData } from '../../../../data/projects.constant'
 import { AiOutlineLink, AiOutlineGithub } from 'react-icons/ai'
+import StarsCanvas from '@/components/StarsCanvas'
 
 interface IMainProjectProps {
     project: IProject
@@ -74,7 +75,7 @@ const Projects = () => {
     return (
         <section
             id="projects"
-            className="container sm:mt-44 mt-14 mx-auto overflow-hidden"
+            className="container sm:mt-44 mt-14 mx-auto overflow-hidden relative"
         >
             <motion.div
                 // initial="hidden"
@@ -97,6 +98,7 @@ const Projects = () => {
                     )
                 })}
             </div>
+            <StarsCanvas />
         </section>
     )
 }

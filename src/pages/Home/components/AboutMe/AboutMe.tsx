@@ -3,10 +3,11 @@
 import { motion } from 'framer-motion'
 import { fadeIn, slideIn, textVariant } from '@/utils/motion'
 import me from '@/assets/Bhautik_Resume_image.png'
+import StarsCanvas from '@/components/StarsCanvas'
 
 const AboutMe = () => {
     return (
-        <section id="about" className="sm:mt-44 mt-15 container mx-auto">
+        <section id="about" className="sm:mt-44 mt-15 container mx-auto relative">
             <motion.div
                 initial="hidden"
                 whileInView="show"
@@ -73,6 +74,7 @@ const AboutMe = () => {
                     </div>
                 </motion.div>
             </div>
+            <StarsCanvas />
         </section>
     )
 }

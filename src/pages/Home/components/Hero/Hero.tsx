@@ -1,3 +1,4 @@
+import StarsCanvas from '@/components/StarsCanvas'
 import ComputerCanvas from '../../../../components/ComputerCanvas'
 import { motion } from 'framer-motion'
 
@@ -46,6 +47,7 @@ const Hero = () => {
                     </div>
                 </a>
             </div>
+            <StarsCanvas />
         </section>
     )
 }

@@ -1,3 +1,4 @@
+import StarsCanvas from '@/components/StarsCanvas'
 import AboutMe from './components/AboutMe/AboutMe'
 import Contact from './components/Contact/Contact'
 import Experience from './components/Experience/Experience'
@@ -8,12 +9,14 @@ import Technologies from './components/Technologies/Technologies'
 const Home = () => {
     return (
         <>
+
             <Hero />
             <AboutMe />
             <Technologies />
             <Experience />
             <Projects />
             <Contact />
+            
         </>
     )
 }

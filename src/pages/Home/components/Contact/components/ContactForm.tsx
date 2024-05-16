@@ -61,8 +61,8 @@ export default function ContactForm() {
             return
         }
         send(
-            'service_8wr47cj',
-            'template_vx3y50z',
+            'service_rp0en8w',
+            'template_67l8at9',
             {
                 from_name: form.name,
                 to_name: 'Bhautik Davariya',
@@ -70,7 +70,7 @@ export default function ContactForm() {
                 to_email: 'bhautikmerndevelopers@gmail.com',
                 message: form.message,
             },
-            '7AsLir4APmIG9WcFz'
+            'nDqz-pnso6nFubo3X'
         ).then(
             () => {
                 setLoading(false)

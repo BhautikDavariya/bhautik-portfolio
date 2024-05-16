@@ -5,10 +5,11 @@ import {
     technologies,
 } from '../../../../data/technologies.constant'
 import { textVariant } from '../../../../utils/motion'
+import StarsCanvas from '@/components/StarsCanvas'
 
 const Technologies = () => {
     return (
-        <section id="technologies" className="container sm:mt-44 mt-14 mx-auto">
+        <section id="technologies" className="container sm:mt-44 mt-14 mx-auto relative">
             <motion.div
                 initial="hidden"
                 whileInView="show"
@@ -77,6 +78,7 @@ const Technologies = () => {
                     </div>
                 ))}
             </div>
+            <StarsCanvas />
         </section>
     )
 }
