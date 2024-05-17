@@ -47,7 +47,6 @@ const Hero = () => {
                     </div>
                 </a>
             </div>
-            <StarsCanvas />
         </section>
     )
 }
