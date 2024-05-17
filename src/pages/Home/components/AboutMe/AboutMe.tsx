@@ -7,10 +7,7 @@ import StarsCanvas from '@/components/StarsCanvas'
 
 const AboutMe = () => {
     return (
-        <section
-            id="about"
-            className="sm:mt-44 mt-15 container mx-auto"
-        >
+        <section id="about" className="sm:mt-44 mt-15 container mx-auto">
             <motion.div
                 initial="hidden"
                 whileInView="show"
