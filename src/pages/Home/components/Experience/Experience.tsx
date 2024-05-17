@@ -69,7 +69,7 @@ const Experience = () => {
     return (
         <section
             id="work"
-            className="container sm:mt-44 mt-14 mx-auto relative"
+            className="container sm:mt-44 mt-14 mx-auto "
         >
             <motion.div
                 initial="hidden"
@@ -98,7 +98,6 @@ const Experience = () => {
                         ))}
                 </VerticalTimeline>
             </div>
-            <StarsCanvas />
         </section>
     )
 }

@@ -9,7 +9,7 @@ const AboutMe = () => {
     return (
         <section
             id="about"
-            className="sm:mt-44 mt-15 container mx-auto relative"
+            className="sm:mt-44 mt-15 container mx-auto"
         >
             <motion.div
                 initial="hidden"
@@ -77,7 +77,6 @@ const AboutMe = () => {
                     </div>
                 </motion.div>
             </div>
-            <StarsCanvas />
         </section>
     )
 }

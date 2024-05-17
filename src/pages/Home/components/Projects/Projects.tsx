@@ -75,7 +75,7 @@ const Projects = () => {
     return (
         <section
             id="projects"
-            className="container sm:mt-44 mt-14 mx-auto overflow-hidden relative"
+            className="container sm:mt-44 mt-14 mx-auto overflow-hidden"
         >
             <motion.div
                 // initial="hidden"
@@ -98,7 +98,6 @@ const Projects = () => {
                     )
                 })}
             </div>
-            <StarsCanvas />
         </section>
     )
 }

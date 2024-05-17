@@ -11,7 +11,7 @@ const Technologies = () => {
     return (
         <section
             id="technologies"
-            className="container sm:mt-44 mt-14 mx-auto relative"
+            className="container sm:mt-44 mt-14 mx-auto "
         >
             <motion.div
                 initial="hidden"
@@ -81,7 +81,6 @@ const Technologies = () => {
                     </div>
                 ))}
             </div>
-            <StarsCanvas />
         </section>
     )
 }
