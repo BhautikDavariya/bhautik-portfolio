@@ -113,7 +113,7 @@ const NavBar = () => {
                     </a>
                 ))}
                 <Button size="large">
-                    <a href="https://drive.google.com/file/d/1qMKxBf3kPsuM7ZaEN7BFoIZFBZz1a1eB/view?usp=sharing">
+                    <a href="https://drive.google.com/file/d/1iMSuybPuvCZmk-0JGynQDO5E4WeBtht9/view?usp=sharing">
                         Resume
                     </a>
                 </Button>
