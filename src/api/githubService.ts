@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const githubApi = axios.create({
-    baseURL: 'https://api.github.com/repos/NivSv/my-portfolio',
+    baseURL: 'https://api.github.com/repos/BhautikDavariya/bhautik-portfolio',
 })
 
 interface IRepoData {

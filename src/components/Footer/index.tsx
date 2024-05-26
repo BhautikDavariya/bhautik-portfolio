@@ -38,7 +38,7 @@ export const Footer = () => {
                 ))}
             </div>
             <a
-                href="https://github.com/NivSv/my-portfolio"
+                href="https://github.com/BhautikDavariya/bhautik-portfolio"
                 target="_blank"
                 rel="noreferrer"
                 className="flex flex-col items-center justify-center group"
