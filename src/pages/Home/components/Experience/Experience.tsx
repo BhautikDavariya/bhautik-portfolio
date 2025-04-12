@@ -32,7 +32,7 @@ const ExperienceCard = (props: IExperienceCardProps) => {
                     <img
                         src={props.experience.icon}
                         alt={props.experience.company_name}
-                        className="w-[90%] h-[90%] object-contain"
+                        className="w-[90%] h-[90%] object-contain rounded-full"
                     />
                 </div>
             }

@@ -1,4 +1,5 @@
 import oversight from '../assets/companies/infyom.png'
+import netizens from '../assets/companies/netizens.svg'
 import checkpoint from '../assets/companies/smixit_solutions_private_limited_logo.jpeg'
 // import magshimim from '../assets/companies/magshimim.png'
 
@@ -13,13 +14,23 @@ export interface IExperience {
 
 export const experiences: IExperience[] = [
     {
+        title: 'Full Stack Developer',
+        company_name: 'Netizens Technologies Private Limited',
+        icon: netizens,
+        iconBgColor: '#f0f0f0',
+        date: 'Jul 2025- 2025(Present)',
+        points: [
+            `A skilled full stack developer with years of experience building web applications, especially focusing on web applications for Android, iOS using React Js, Next Js or Node Js, Capacitor. Strong understanding of frontend and backend technologies including React Bootstrap, Redux, custom hooks. Works seamlessly with teams to build great software.`,
+        ],
+    },
+    {
         title: 'React And Next Js Developer',
         company_name: 'Smixit Solutions Private Limited',
         icon: checkpoint,
         iconBgColor: '#f0f0f0',
-        date: 'Apr 2023- 2024(Present)',
+        date: 'Apr 2023- Jun 2024(Present)',
         points: [
-            `I have over 1 year of expertise developing online
+            `I have over 1.3 year of expertise developing online
             applications, such as Meta-Snap-Editor, Udhyog
             Ecommerce, and Acclimetry. In addition, I work well
             in groups and enjoy collaborating with people

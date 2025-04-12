@@ -5,7 +5,7 @@ import {
     technologies,
 } from '../../../../data/technologies.constant'
 import { textVariant } from '../../../../utils/motion'
-import StarsCanvas from '@/components/StarsCanvas'
+// import StarsCanvas from '@/components/StarsCanvas'
 
 const Technologies = () => {
     return (

@@ -11,6 +11,9 @@ import html from '../assets/tech/html.png'
 import css from '../assets/tech/css.png'
 import scss from '../assets/tech/scss.png'
 import bootstrap from '../assets/tech/bootstrap.png'
+import capacitor from '../assets/tech/capacitor.png'
+import androidStudio from '../assets/tech/androidStudio.png'
+import xcode from '../assets/tech/xcode.png'
 
 export interface ITechnologies {
     name: string
@@ -70,6 +73,18 @@ export const technologies: ITechnologies[] = [
         name: 'mongodb',
         image: mongodb,
     },
+    {
+        name: 'capacitor',
+        image: capacitor,
+    },
+    {
+        name: 'android Studio',
+        image: androidStudio,
+    },
+    {
+        name: 'xcode',
+        image: xcode,
+    },
 ]
 
 export const Languages = ['HTML', 'CSS', 'SCSS', 'JavaScript', 'typeScript']
@@ -77,11 +92,14 @@ export const Languages = ['HTML', 'CSS', 'SCSS', 'JavaScript', 'typeScript']
 export const SoftwaresTools = [
     'REACTJS',
     'NEXTJS',
+    'Capacitor',
     'Redux',
     'Bootstrap',
     'vite',
     'Material UI',
     'Shadcn UI',
+    'Android',
+    'Ios',
     'GitLab',
     'GitHub',
 ]

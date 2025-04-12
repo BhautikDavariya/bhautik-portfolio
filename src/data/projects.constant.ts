@@ -112,4 +112,21 @@ export const ProjectsData: IProject[] = [
         demo: 'https://app.tonecompass.com/',
         image: '',
     },
+    {
+        title: 'Below30jobs',
+        description: `Built Below30jobs, a modern platform designed to connect job seekers under 30 with the right employment opportunities. Developed using React and Next.js, the app enables employers to post jobs, manage applicants, and find ideal candidates efficiently. With a clean interface and seamless user experience, Below30jobs helps streamline the hiring process and supports young professionals in launching their careers.`,
+        technologies: [
+            'Next JS',
+            'Axios',
+            'typeScript',
+            'PHP',
+            'Capacitor',
+            'Android',
+            'IOS',
+            'Redux(persist)',
+        ],
+        github: '',
+        demo: 'https://below30jobs.com/',
+        image: '',
+    },
 ]
