@@ -70,7 +70,7 @@ const AboutMe = () => {
                     className="mb-4"
                 >
                     <div className="w-[200px] md:w-[300px]">
-                        <img src={me} alt="as" className='rounded-full'></img>
+                        <img src={me} alt="as" className="rounded-full"></img>
                     </div>
                 </motion.div>
             </div>
